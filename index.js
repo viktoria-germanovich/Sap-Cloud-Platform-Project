@@ -1,4 +1,4 @@
-var friends = ['Петя', 'Кеша', 'Гриша', 'Ден', 'Вася', 'Паша', 'Сашка', 'Алёша'];
+var friends = ['Petya', 'Kesha', 'Grisha', 'Den', 'Vasya', 'Pasha', 'Sashka', 'Alesha'];
 var text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam deleniti, earum vitae sunt adipisci quisquam ab officiis inventore, ex officia perspiciatis, eligendi aperiam. Quis recusandae consectetur soluta minus eos. Itaque?';
 
 for (var i = 0; i < friends.length; i++) {
@@ -17,7 +17,7 @@ function openChat(friend) {
 
     var hi = document.createElement("div");
     hi.classList.add("answer");
-    hi.innerHTML = '<div class="answer-text">Привет, ' + friend.id + '</div><img src="images/Сашка.jpg" class="message-img">';
+    hi.innerHTML = '<div class="answer-text">Hello, ' + friend.id + '</div><img src="images/Sashka.jpg" class="message-img">';
     var cont = document.getElementById("messages");
     cont.appendChild(hi);
 
@@ -30,7 +30,7 @@ function openChat(friend) {
 
         var ans = document.createElement("div");
         ans.classList.add("answer");
-        ans.innerHTML = '<div class="answer-text">' + text + '</div><img src="images/Сашка.jpg" class="message-img">';
+        ans.innerHTML = '<div class="answer-text">' + text + '</div><img src="images/Sashka.jpg" class="message-img">';
         var cont = document.getElementById("messages");
         cont.appendChild(ans);
     }   
